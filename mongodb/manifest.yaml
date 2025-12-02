@@ -47,6 +47,6 @@ spec:
     component: mongodb
     tier: db
   ports:
-    protocol: TCP
+  - protocol: TCP
     port: 27017
     targetPort: 27017
