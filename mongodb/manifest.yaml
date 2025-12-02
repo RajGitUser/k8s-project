@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mongodb
   namespace: roboshop
-  lables:
+  labels:
     project: roboshop
     component: mongodb
     tier: db
@@ -14,7 +14,7 @@ spec:
       project: roboshop
       component: mongodb
       tier: db
-  templates:
+  template:
     metadata:
       lables:
         project: roboshop
