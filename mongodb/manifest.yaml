@@ -16,7 +16,7 @@ spec:
       tier: db
   template:
     metadata:
-      lables:
+      labels:
         project: roboshop
         component: mongodb
         tier: db
@@ -24,3 +24,4 @@ spec:
       containers:
       - name: mongodb
         image: rajmdevops/mongodb:v1
+        imagePullPolicy: Always
