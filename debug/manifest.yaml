@@ -7,3 +7,4 @@ spec:
   containers:
   - name: debug
     image: rajmdevops/debug:v1
+    imagePullPolicy: Always
