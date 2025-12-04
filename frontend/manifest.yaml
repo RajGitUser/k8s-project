@@ -117,7 +117,7 @@ spec:
           subPath: nginx.conf
       volumes:
       - name: nginx-config
-        ConfigMap:
+        configMap:
           name: frontend
 ---
 apiVersion: v1
